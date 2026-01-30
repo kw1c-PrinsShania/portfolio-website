@@ -1,0 +1,638 @@
+/* 
+    author:		Shania Prins
+    datum:		22-9-2025 
+    
+    beschrijving:   Stylesheet voor de opmaak van de overige elementen.
+*/
+
+
+
+/*  positie homepage */
+    #main-flex
+    {
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+    }
+
+/*  positie linker kant van homepage */
+    #main-left
+    {
+        width: 580px;
+        height: 650px;
+        position: absolute;
+        top: 110px;
+        left: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left; 
+    }
+
+/*  opmaak homepage titel */
+    #main-titel
+    {
+        font-size: 70px;
+        margin-bottom: 0px;
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+    }
+
+/*  opmaak homepage titel */
+    #main-titel2
+    {
+        font-size: 28px;
+        margin: 5px;
+        margin-bottom: 50px;
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+    }
+
+/*  positie homepage buttons */
+    #main-buttons
+    {
+        margin-left: 20px;
+    }
+
+/* opmaak homepage email button  */
+    #main-email
+    {
+        background-color: black;
+        border-radius: 30px;
+        color: white;
+        display: inline-block;
+        padding: 15px;
+        height: 20px;
+        width: 120px;
+        font-size: 17px;
+        cursor: pointer;
+        transition: transform 0.3s ease;  
+        text-align: center;
+    }
+
+/*  opmaak email button hover */
+    #main-email:hover
+    {
+        transform: scale(1.05);
+    }
+
+/* opmaak homepage cv download  */
+    #main-cv
+    {
+        color: black;
+        cursor: pointer;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+/* opmaak homepage cv download  */
+    #main-cv:hover
+    {
+        color: rgb(87, 87, 87);
+    }
+
+/*  positie homepage buttons */
+    #main-email, #main-cv
+    {
+        margin-left: 30px;
+    }
+
+/*  positie homepage buttons */
+    #main-buttons
+    {
+        margin-top: 80px;
+    }
+
+/*  positie rechter kant van homepage */
+    #main-right
+    {
+        /* border: 1px solid black; */
+        width: 830px;
+        height: 760px;
+        position: absolute;
+        top: 120px;
+        right: 50px;
+    }
+
+/*  positie foto van mezelf */
+    #face-image
+    {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        border: 3px solid black;
+        position: absolute;
+        top: 150px;
+        left: 50px;
+        z-index: -1;
+    }
+
+/*  opmaak "hello" */
+    #main-hello
+    {
+        background-color: black;
+        border-radius: 100%;
+        height: 170px;
+        width: 170px;
+        color: white;
+        display: grid;
+        place-items: center;
+        letter-spacing: 0px;
+        font-weight: bold;
+        font-size: 38px;
+        font-family: monospace;
+        position: absolute;
+        top: 350px;
+    }
+
+
+
+    /* over mij */
+
+/*  positie over mij pagina */
+    #main-flex2
+    {
+        height: 740px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+/*  positie socials line */
+    #main-socials
+    {
+        text-align: center;
+        font-weight: bold; 
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+        transition: a none;
+    }
+
+
+/*  opmaak socials hover */
+    #main-socials a:hover
+    {
+        color: rgb(48, 48, 48);
+        transition: none;
+    }
+
+/*  positie socials line */
+    .line
+    {
+        color: rgb(155, 155, 155);
+        font-weight: normal;
+    }
+
+/*  opmaak blokken */
+    .blokken-beschrijving
+    {
+        width: 300px;
+        margin-top: 0px;
+    }
+
+/*  positie hobby blokken */
+    #main-hobbysblokken
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 300px;
+        margin-top: 70px;
+    }
+
+/*  positie eigenschap blokken */
+    #main-eigenschappenblokken
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 290px;
+        margin-top: 40px;
+    }
+
+/*  opmaak eerste hobbyblok */
+    #hobbyblok1
+    {
+        background-color: black;
+        color: white;
+        height: 200px;
+        width: 200px;
+        padding: 40px;
+        display: inline-block;               
+        transition: transform 0.3s ease;   
+        margin-left: 30px; 
+        border: 2px solid black;
+    }
+
+/*  opmaak tweede en derde hobbyblok */
+    .hobbyblok2
+    {
+        background-color: white;
+        color: black;
+        height: 200px;
+        width: 200px;
+        padding: 40px;
+        display: inline-block;               
+        transition: transform 0.3s ease;   
+        margin-left: 30px;
+        border: 2px solid black; 
+    }
+
+/*  opmaak blokken hover */
+    .hobbyblok2:hover, #hobbyblok1:hover
+    {
+        transform: scale(1.06);
+    }
+
+/*  opmaak hobbyblokken titel */
+    #hobbyblok1 p:first-of-type, .hobbyblok2 p:first-of-type
+    {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+/*  opmaak hobbyblokken linkje */
+    #hobbyblok1 a
+    {
+        color: white;
+        margin-top: 15px;
+        display: inline-block;
+        text-transform: uppercase;
+    }
+
+    .hobbyblok2 a
+    {
+        color: rgb(0, 0, 0);
+        margin-top: 15px;
+        display: inline-block;
+        text-transform: uppercase;
+
+    }
+
+/*  opmaak hobbyblokken linke hover */
+    #hobbyblok1 a:hover
+    {
+        color: rgb(216, 216, 216);
+        
+    }
+
+    .hobbyblok2 a:hover
+    {
+        color: rgb(48, 48, 48);
+        
+    }
+
+/* opmaak hobbyblokken icoontjes */
+    #main-hobbysblokken img
+    {
+        height: 60px;
+        width: 60px;
+    }
+
+/*  opmaak eerste hobbyblok icoontje */
+    #hobbyblok1 img:first-of-type
+    {
+        filter: brightness(0) invert(1);
+    }
+
+/*  positie eigenschapblokken */
+    .eigenschapblok
+    {
+        border: 2px solid black;
+        color: black;
+        height: 140px;
+        width: 140px;
+        padding: 30px;
+        margin-left: 20px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+/*  opmaak eigenschapblokken titel */
+    .eigenschapblok p:first-of-type
+    {
+        font-size: 30px;
+        margin: 0px;
+        text-align: center;
+    }
+
+/*  opmaak hobbys titel */
+    #hobby-titel
+    {
+        display: flex;
+        flex-direction: column;
+        margin-right: 60px;
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+    }
+
+/*  opmaak eigenschappen titel */
+    #eigenschap-titel
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 80px;
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+    }
+
+/*  opmaak blokken beschrijvingen */
+    .blokken-info
+    {
+        font-size: 50px;
+        font-weight: bolder;
+        margin-bottom: 30px;
+    }
+
+/*  positie eigenschapblokken titel */
+    #eigenschap-titel p:first-of-type
+    {
+        margin-top: 10px;
+    }
+
+
+
+    /* ervaring */
+
+/*  positie ervaringen pagina */
+    #mainflex3
+    {
+        height: 100vh;
+        width: 100vw;
+    }
+
+/*  positie ervaringen titel en beschrijving */
+    #ervaring-info
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+/*  opmaak arrow */
+    #ervaring-info a:first-of-type
+    {
+        font-size: 60px;
+        color: black;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+/*  opmaak ervaringen titel */
+    #ervaring-info p:first-of-type
+    {
+        font-size: 60px;
+        font-weight: bold;
+        margin-bottom: 2px;
+        margin-top: 70px;
+    }
+
+/*  opmaak ervaringen beschrijving */
+    #ervaring-info p:nth-of-type(2)
+    {
+        margin-top: 15px;
+    }
+
+/*  positie ervaringen kolommen */
+    #main-doos
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+/*  opmaak kolommen */
+    .kolommen
+    {
+        border: 2px solid black;
+        width: 1200px;
+        height: 100px;
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;             
+        transition: transform 0.3s ease;   
+    }
+
+/*  opmaak kolommen locatie link */
+    .kolommen:hover a {
+        color: white;
+        transition: none;
+    }
+
+/*  opmaak locatie link hover */
+    .kolommen:hover a:hover {
+        color: rgb(211, 211, 211);
+        transition: none;
+    }
+
+/*  opmaak kolommen hover */
+    .kolommen:hover
+    {
+        border: 1px solid black;
+        color: white;
+        background-color: black;
+        transform: scale(1.01);
+    }
+
+/*  positie inhoud kolommen */
+    .kolom-info
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        width: 1000px;
+    }
+
+/*  opmaak kolom nummers */
+    .kolom-nummer
+    {
+        background-color: rgb(27, 27, 27);
+        width: 45px;
+        height: 45px;
+        color: white;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30px;
+    }
+
+/*  positie kolom titels */
+    .kolom-info p:first-of-type
+    {
+        font-weight: bold;
+        margin-bottom: 3px;
+        margin-top: 2px;
+        font-size: 20px;
+    }
+
+/*  positie kolom locaties */
+    .kolom-info a:first-of-type
+    {
+        margin-top: 2px;
+        transition: none;
+        width: 380px;
+    }
+
+/*  positie kolom duur */
+    .kolom-duration
+    {
+        height: 40px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+
+
+    /* projecten */
+
+/*  positie projecten pagina */
+    #mainflex4
+    {
+        height: 100%;
+        width: 100vw;
+    }
+
+/*  positie projecten titel en beschrijving */
+    #projecten-info
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+/*  opmaak projecten cirkel */
+    #projecten-info p:first-of-type
+    {
+        font-size: 60px;
+        color: black;
+        margin-bottom: 0px;
+        margin-top: 20px;
+        text-shadow: 0 0 8px black;
+    }
+
+/*  opmaak projecten titel */
+    #projecten-info p:nth-of-type(2)
+    {
+        font-size: 60px;
+        font-weight: bold;
+        margin-bottom: 2px;
+        margin-top: 5px;
+    }
+
+/*  opmaak projecten beschrijving */
+    #projecten-info p:nth-of-type(3)
+    {
+        margin-top: 15px;
+    }
+
+/*  positie projecten */
+    .flex-projecten
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+/*  opmaak projecten preview fotos */
+    .project-preview
+    {
+        background-color: rgb(209, 209, 209);
+        height: 350px;
+        width: 600px;
+        margin: 50px;
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+        box-shadow: 0 0 10px black;
+        transition: opacity 0.4s ease;
+        display: block;
+    }
+
+/*  positie projecten info */
+    .project1-3
+    {
+        height: 350px;
+        width: 600px;
+        margin: 50px;
+    }
+
+/*  opmaak projecten titels */
+    .project1-3 p:first-of-type
+    {
+        background-color: black;
+        color: white;
+        font-size: 17px;
+        height: 50px;
+        width: 180px;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+    }
+
+/*  opmaak projecten beschrijving */
+    .project1-3 p:nth-of-type(2)
+    {
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+    }
+
+/*  positie project link */
+    .project1-3 p:nth-of-type(3)
+    {
+        margin-top: 0px;
+    }
+
+/*  opmaak project link */
+    .project1-3 a:first-of-type
+    {
+        text-decoration: underline;
+        display: block;
+        margin-top: 100px;
+        font-size: 18px;
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+        text-transform: uppercase;
+    }
+
+/*  opmaak project link hover */
+    .project1-3 a:first-of-type:hover
+    {
+        color: rgb(73, 73, 73);
+    }
+
+/*  positie projecten en ervaringen beschrijving */
+    #projecten-info p:nth-of-type(3), #ervaring-info p:nth-of-type(2)
+    {
+        width: 600px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+     /* .image-swap {
+      position: relative;
+      display: inline-block;
+        height: 350px;
+        width: 600px;
+      height: auto;
+    }
+
+    .image-swap img:last-child {
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+    }
+
+    .image-swap:hover img:last-child {
+      opacity: 1;
+    }
+
+    .image-swap:hover img:first-child {
+      opacity: 0;
+    } */

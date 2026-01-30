@@ -1,0 +1,194 @@
+/* 
+    author:		Shania Prins
+    datum:		22-9-2025  
+
+    beschrijving:   Stylesheet voor de opmaak van de basis elementen.
+*/
+
+
+
+/*  website font */
+    @font-face {
+    font-family: 'roboto-flex';
+    src: url('../Fonts/Roboto_Flex/RobotoFlex-VariableFont_GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf') format('truetype');
+    }
+
+/*  opmaak body */
+    body {
+        background-color: rgb(233, 233, 233);
+        font-family: 'roboto-flex', sans-serif;
+        margin: 0;
+        padding: 0;
+        letter-spacing: 0.5px;
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+    }
+
+/*  animatie scrollen */
+    html {
+    scroll-behavior: smooth;
+    }
+
+/*  opmaak header */
+    header 
+    {
+        width: 100%;
+        height: 120px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        background-color: rgb(233, 233, 233);
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+    }
+
+/*  header positie */
+    #header-flex 
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+/*  navigatie positie */
+    #header-nav
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 100px;
+    }
+
+/*  navigatie items opmaak */
+    .header-info 
+    {
+        margin: 15px;
+    }
+
+/*  header titel opmaak */
+    #header-titel
+    {
+        margin-left: 100px;
+        margin-top: 40px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+/*  navigatie item titels opmaak */
+    .header-infotitles
+    {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+
+/*  navigatie item overline */
+    .header-overline
+    {
+        text-decoration: overline;
+    }
+
+/*  navigatie item beschrijving */
+    .header-infodescription
+    {
+        font-size: 15px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+/*  opmaak linkjes */
+    a
+    {
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+    }
+
+/*  opmaak footer homepage */
+    #footer 
+    {
+        height: 60px;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-weight: bolder;
+        color: white;
+        font-size: 20px;
+    }
+
+/*  opmaak sterretjes footer homepage */
+    .footer-icon
+    {
+        font-weight: normal;
+        font-size: 30px;
+        color: rgb(153, 153, 153);
+        margin-top: 15px;
+    }
+
+/*  footer opmaak*/
+    footer {
+        background-color: black;
+        width: 100%;
+        height: 340px;
+        margin-top: 50px;
+        color: white;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+
+/*  footer positie */
+    #footer-flex
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+/*  footer titel opmaak */
+    .footer-titel
+    {
+        color: rgb(204, 204, 204);
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+/*  footer lijst items opmaak */
+    li
+    {
+        list-style: none;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+
+/*  footer linkjes opmaak */
+    li a
+    {
+        color: rgb(190, 190, 190);
+        cursor: pointer;
+    }
+
+/*  footer linkjes hover opmaak */
+    li a:hover
+    {
+        color: rgb(204, 204, 204);
+        font-weight: bold;
+    }
+
+/*  footer lijsten positie */
+    ul
+    {
+        width: 250px;
+        height: 180px;
+        padding-left: 0;
+        margin-left: 0;
+        margin-top: 40px;
+        list-style-position: inside;
+    }

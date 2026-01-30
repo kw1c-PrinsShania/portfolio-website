@@ -1,0 +1,93 @@
+/* 
+    author:		Shania Prins
+    datum:		22-9-2025  
+
+    beschrijving:   Stylesheet voor dark mode.
+*/
+
+
+
+/*  achtergrond kleur: dark mode */
+    body.dark-mode
+    {
+        background-color: rgb(41, 41, 43);
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+    }
+
+/*  header kleur: dark mode */
+    body.dark-mode header
+    {
+        background-color: rgb(41, 41, 43);
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+    }
+
+/*  text kleur: dark mode */
+    body.dark-mode a, body.dark-mode #main-titel, body.dark-mode #main-titel2, body.dark-mode #hobby-titel, body.dark-mode #eigenschap-titel, body.dark-mode #ervaring-info, body.dark-mode .eigenschapblok, body.dark-mode .project1-3 p:nth-of-type(2), body.dark-mode #projecten-info
+    {
+        color: white;
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+    }
+
+/*  linkjes kleur: dark mode */
+    body.dark-mode #main-cv, body.dark-mode #main-socials, body.dark-mode .project1-3 a:first-of-type, body.dark-mode #main-description, body.dark-mode #main-socials a, body.dark-mode #projecten-info p:nth-of-type(3), body.dark-mode #ervaring-info p:nth-of-type(2), body.dark-mode .blokken-beschrijving, body.dark-mode .project-beschrijvingen
+    {
+        color: rgb(201, 201, 201);
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+    }
+
+/*  linkjes hover kleur: dark mode */
+    body.dark-mode #main-socials a:hover, body.dark-mode #main-cv:hover, body.dark-mode .project1-3 a:first-of-type:hover
+    {
+        color: rgb(161, 161, 161);
+    }
+
+/*  'over mij' blokken: dark mode */
+    body.dark-mode .hobbyblok2, body.dark-mode .kolom-nummer
+    {
+        background-color: black;
+        color: white;
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+    }
+
+/*  footer lijst items kleur: dark mode */
+    body.dark-mode li a
+    {
+        color: rgb(190, 190, 190);
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+    }
+
+/*  footer lijst items hover opmaak: dark mode */
+
+    body.dark-mode li a:hover
+    {
+        color: rgb(204, 204, 204);
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+    }
+
+/*  ervaring kolommen opmaak: dark mode */
+    body.dark-mode .kolommen
+    {
+        color: white;
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+    }
+
+/*  ervaring kolommen hover opmaak: dark mode */
+    body.dark-mode .kolommen:hover
+    {
+        border: 2px solid black;
+        background-color: black;
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+    }
+
+/*  achtergrond project screenshots: dark mode */
+    body.dark-mode .project-preview
+    {
+        background-color: rgb(36, 36, 37);
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+    }
+
+/*  hobby icons images kleur: dark mode */
+    body.dark-mode #main-hobbysblokken img
+    {
+        filter: brightness(0) invert(1);
+    }

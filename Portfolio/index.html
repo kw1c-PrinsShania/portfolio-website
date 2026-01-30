@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<!-- 
+    author:		Shania Prins
+    datum:		22-9-2025 
+
+    beschrijving:   Mijn portfolio website.
+
+    https://kw1c-prinsshania.github.io/mijn-portfolio-website/Portfolio/index.html
+    
+-->
+
+
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shania's Portfolio</title>
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="Styles/stylesheet.css">
+  <link rel="stylesheet" href="Styles/stylesheet2.css">
+  <link rel="stylesheet" href="Styles/responsive.css">
+  <!-- javascript -->
+  <link rel="stylesheet" href="Styles/darkmode.css">
+</head>
+<body>
+
+  <header>
+    <!-- header -->
+    <div id="header-flex">
+      <!-- homepage titel -->
+      <a id="header-titel" href="#main-flex">🏠︎ <u>portfolio</u></a>
+      <!-- header navigatie -->
+      <nav id="header-nav">
+        <!-- navigatie inhoud -->
+        <a class="header-info" href="#footer">
+          <!-- over mij -->
+          <p class="header-infotitles"><span class="header-overline">Over Mij &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>↗</p>
+          <p class="header-infodescription">Leer mij beter kennen <br> en wat ik doe</p>
+        </a>
+        <a class="header-info" href="#jump-projecten">
+          <!-- mijn projecten -->
+          <p class="header-infotitles"><span class="header-overline">Mijn Projecten &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>↗</p>
+          <p class="header-infodescription">Zie leuke projecten die <br> ik gemaakt heb</p>
+        </a>
+        <a class="header-info" href="mailto:shania.prins@edu-kw1c.nl">
+          <!-- contact me -->
+          <p class="header-infotitles"><span class="header-overline">Contact Me &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>↗</p>
+          <p class="header-infodescription">shania.prins@edu-kw1c.nl</p>
+        </a>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <!-- homepage -->
+    <div id="main-flex">
+      <div id="main-left">
+        <!-- intro titel -->
+        <p id="main-titel">Hoi! <b>Ik ben Shania</b></p>
+        <p id="main-titel2">——————— &nbsp; Software Developer &nbsp;&nbsp;<span>✦</span></p>
+        <!-- intro beschrijving -->
+        <p id="main-description">Welkom op mijn zelf gemaakte portfolio website. Ik volg de studie software developer op het Koning Willem I College in den bosch. Creatieve denker, snelle leerling & vriendelijke introvert.</p>
+        <div id="main-buttons">
+          <!-- email button -->
+          <a id="main-email" class="button" href="https://outlook.office.com/mail/deeplink/compose?to=shania.prins@edu-kw1c.nl" target="_blank" onclick="openOutlook()">Email Me</a>
+          <!-- download linkje -->
+          <a id="main-cv" href="CV/CV_Shania_Prins.pdf" download="CV_Shania_Prins.pdf">Download CV &nbsp; ⤓</a>
+        </div>
+      </div>
+      <div id="main-right">
+        <!-- foto van mezelf -->
+        <p id="main-hello"></p>
+        <img src="Images/profiel_foto.jpeg" id="face-image">
+      </div>
+    </div>
+  </main>
+
+  <!-- homepage footer -->
+  <div id="footer">
+      <p class="footer-icon">⊹</p>
+      <p class="footer-text">SHANIA PRINS</p>
+      <p class="footer-icon">⊹</p>
+      <p class="footer-text">KONING WILLEM I COLLEGE</p>
+      <p class="footer-icon">⊹</p>
+      <p class="footer-text">WEB DESIGN</p>
+      <p class="footer-icon">⊹</p>
+      <p class="footer-text">WEB DEVELOPMENT</p>
+      <p class="footer-icon">⊹</p>
+      <p class="footer-text">LAST UPDATED: 05-11-2025</p>
+      <p class="footer-icon">⊹</p>
+  </div>
+
+  <!-- over mij page -->
+  <div id="main-flex2">
+    <div id="main-socials">
+            <!-- socials line -->
+            <p><span class="line">━━━━━━━━━━━━━━━━━━━━━━━━━</span> &nbsp; <a href="https://www.linkedin.com/in/shania-prins-049953356" target="blank_">linkedin</a> &nbsp;&nbsp;&nbsp; <a href="https://github.com/kw1c-PrinsShania" target="blank_">github</a> &nbsp;&nbsp;&nbsp; <a href="tel:+31683410072">mobiel</a> &nbsp; <span class="line">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span></p>
+        </div>
+        <!-- hobby blokken -->
+        <div id="main-hobbysblokken">
+            <!-- hobby's titel & beschrijving -->
+            <div id="hobby-titel">
+              <p class="blokken-info">Hobby's</p>
+              <p class="blokken-beschrijving">Hobby’s spelen een belangrijke rol in het dagelijks leven. Ze bieden ontspanning, inspiratie en de kans om jezelf op een andere manier te ontwikkelen.</p>
+            </div>
+            <div id="flex-hobbyblokken">
+              <!-- game blok -->
+              <div id="hobbyblok1">
+                <img src="Images/console_icon.png">
+                <p>Gamen</p>
+                <a href="https://ggapp.io/sp_2710" target="_blank">Bekijk details &nbsp; →</a>
+              </div>
+              <!-- muziek blok -->
+              <div class="hobbyblok2">
+                <img src="Images/muziek_icon.png">
+                <p>Muziek</p>
+                <a href="https://www.last.fm/user/sp_2710" target="_blank">Bekijk details &nbsp; →</a>
+              </div>
+              <!-- tekenen blok -->
+              <div class="hobbyblok2">
+                <img src="Images/tekenen_icon.png">
+                <p>Tekenen</p>
+                <a href="https://www.deviantart.com/mufuiq" target="blank_">Bekijk details &nbsp; →</a>
+              </div>          
+            </div>
+        </div>
+
+        <!-- eigenschap blokken -->
+        <div id="main-eigenschappenblokken">
+            <!-- creatief blok -->
+            <div class="eigenschapblok">
+                <p>Creatief & Artistiek</p>
+            </div>
+            <!-- vriendelijk blok -->
+            <div class="eigenschapblok">
+                <p>Vriendelijk & Beleefd</p>
+            </div>
+            <!-- snelle leerling blok -->
+            <div class="eigenschapblok">
+                <p>Snelle Leerling</p>
+            </div>
+            <!-- zelfstandig en samenwerken blok -->
+            <div class="eigenschapblok">
+                <p>Vaardig in samen & zelfstandig werken</p>
+            </div>
+            <!-- eigenschappen titel & beschrijving -->
+            <div id="eigenschap-titel">
+              <p class="blokken-info">Eigenschappen</p>
+              <p class="blokken-beschrijving">Eigenschappen zeggen iets over wie je bent en hoe je met situaties omgaat. Ze vormen een belangrijk deel van je persoonlijkheid, zowel privé als in je werk of studie.</p>
+           </div>
+        </div>
+  </div>
+
+  <!-- ervaringen page -->
+  <div id="mainflex3">
+    <div id="ervaring-info">
+      <!-- ervaringen titel & beschrijving -->
+      <a href="#mainflex3" id="arrow">↓</a>
+      <p>Ervaring</p>
+      <p>Ervaringen tonen wat je hebt meegemaakt en hoe je daarmee bent omgegaan. Ze zeggen iets over je groei, je kwaliteiten in de praktijk en hoe je leert van verschillende situaties, zowel op werkvlak als persoonlijk.</p>
+    </div>
+    <!-- kolommen ervaringen -->
+    <div id="main-doos">
+      <!-- kolom 1  - lek en linge -->
+      <div class="kolommen">
+        <p class="kolom-nummer">1</p>
+        <div class="kolom-info">
+          <p>Middelbare, havo niveau</p>
+          <a href="https://www.lekenlinge.nl/culemborg" target="blank_">Lek en Linge, Culemborg &nbsp; ↗</a>
+        </div>
+        <p class="kolom-duration">┃ &nbsp; Duur: 2 jaar</p>
+      </div>
+      <!-- kolom 2  - kw1c -->
+      <div class="kolommen">
+        <p class="kolom-nummer">2</p>
+        <div class="kolom-info">
+          <p>Mbo software developer, niveau 4</p>
+          <a href="https://www.kw1c.nl/?gad_source=1&gad_campaignid=19195983554&gbraid=0AAAAApAS01YgI9XsK6aWPykUqwc9o432t&gclid=EAIaIQobChMIwZqA6q7zjwMVQZiDBx24JzcFEAAYASAAEgIMLPD_BwE" target="blank_">Koning Willem I College, 's-Hertogenbosch &nbsp; ↗</a>
+        </div>
+        <p class="kolom-duration">┃ &nbsp; Duur: 2024 Aug - Heden</p>
+      </div>
+      <!-- kolom 3  - supermarkt -->
+      <div class="kolommen">
+        <p class="kolom-nummer">3</p>
+        <div class="kolom-info">
+          <p>Vakkenvuller & Kassamedewerker</p>
+          <a href="https://www.plus.nl/supermarkten/culemborg_plus-giel-smits_691?utm_source=google&utm_medium=cpc&utm_campaign=1.%20SB%20%7C%20Ecom%20%7C%20Plaatsnaam%20-%20BEP&utm_id=1433620221&utm_content=Culemborg%20-%20PLUS%20Giel%20Smits&gad_source=1&gad_campaignid=1433620221&gbraid=0AAAAADsIj_1Q50XPFTQncoqnCSW3O2cWM&gclid=EAIaIQobChMIh-HzhK_zjwMVwKmDBx1_cyoLEAAYASAAEgKZ-_D_BwE" target="blank_">PLUS Giel Smits, Culemborg &nbsp; ↗</a>
+        </div>
+        <p class="kolom-duration">┃ &nbsp; Duur: 2024 Nov - Heden</p>
+      </div>
+      <!-- kolom 4  - stage O-I -->
+      <div class="kolommen">
+        <p class="kolom-nummer">4</p>
+        <div class="kolom-info">
+          <p>Stagaire software developer</p>
+          <a href="https://www.werkenbijo-i.nl/" target="blank_">O-I Manufacturing Netherlands B.V., Leerdam &nbsp; ↗</a>
+        </div>
+        <p class="kolom-duration">┃ &nbsp; Duur: 2025 Sep - Heden</p>
+      </div>
+      <span id="jump-projecten"></span>
+    </div>
+  </div>
+
+  <!-- projecten page -->
+  <div id="mainflex4">
+    <!-- projecten titel & beschrijving -->
+    <div id="projecten-info">
+      <p id="dot">•</p>
+      <p>Projecten</p>
+      <p>Projecten laten zien wat je kunt neerzetten in de praktijk. Ze geven een beeld van jouw aanpak, creativiteit en hoe je samenwerkt om een doel te bereiken.</p>
+    </div>
+    <!-- project 1  - hsr database -->
+    <div class="flex-projecten">
+      <div class="image-swap">
+        <img class="project-preview" src="Images/hsr_preview.png"></img>
+      </div>
+      <div class="project1-3">
+        <p>web development</p>
+        <p>Honkai: Star Rails Database</p>
+        <p class="project-beschrijvingen">Een archive van characters uit het spel Honkai Star Rails. Je kan de database alleen aanpassen als je ingelogt bent.</p>
+        <a href="https://github.com/kw1c-PrinsShania/hsr-database/tree/main/HSR%20Database" target="blank_">Belijk Details &nbsp; ↗</a>
+      </div>
+    </div>
+     <!-- project 2 - O-I project -->
+    <div class="flex-projecten">
+      <div class="project1-3">
+        <p>web development</p>
+        <p>O-I Project</p>
+        <p class="project-beschrijvingen">Een database die tabellen vertoont met daarin de data van de machines uit de fabriek. Je kan de data zien van de afgelopen negen dagen, en kiezen welke datums je wilt vertonen.</p>
+        <!-- <a>Belijk Details &nbsp; ↗</a> -->
+      </div>
+      <div class="image-swap">
+        <img class="project-preview" src="Images/oi_preview.png">
+      </div>
+    </div>
+  </div>
+
+  <!-- socials line -->
+  <div id="main-socials">
+    <p><span class="line">━━━━━━━━━━━━━━━━━━━━━━━━━</span> &nbsp; <a href="https://www.linkedin.com/in/shania-prins-049953356" target="blank_">linkedin</a> &nbsp;&nbsp;&nbsp; <a href="https://github.com/kw1c-PrinsShania" target="blank_">github</a> &nbsp;&nbsp;&nbsp; <a href="tel:+31683410072">mobiel</a> &nbsp; <span class="line">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span></p>
+  </div>
+
+  <!-- footer website -->
+  <footer>
+    <div id="footer-flex">
+      <div>
+        <!-- catagoriën lijst -->
+        <p class="footer-titel">CATAGORIËN</p>
+        <ul>
+          <li><a href="#main-flex">Home</a></li>
+          <li><a href="#footer">Hobby's & Eigenschappen</a></li>
+          <li><a href="#arrow">Ervaring</a></li>
+          <li><a href="#jump-projecten">Projecten</a></li>
+        </ul>
+      </div>
+      <!-- contact gegevens lijst -->
+      <div>
+        <p class="footer-titel">CONTACT GEGEVENS</p>
+        <ul>
+          <li><a href="mailto:shania.prins@edu-kw1c.nl">shania.prins@edu-kw1c.nl</a></li>
+          <li><a href="tel:+31683410072">+31 6 83410072</a></li>
+          <li><a href="https://www.linkedin.com/in/shania-prins-049953356" target="blank_">linkedin</a></li>
+          <li><a href="https://github.com/kw1c-PrinsShania" target="blank_">github</a></li>
+        </ul>
+      </div>
+      <!-- overige lijst -->
+      <div>
+        <p class="footer-titel">OVERIGE</p>
+        <ul>
+          <li><a href="https://github.com/kw1c-PrinsShania/mijn-portfolio-website/blob/main/Portfolio/index.html" target="_blank">Website code</a></li>
+          <li><a href="#footer-flex" id="color-switch">Dark mode</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+<script src="Scripts/javascript.js"></script>
